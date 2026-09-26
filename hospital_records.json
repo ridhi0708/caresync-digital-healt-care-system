@@ -1,0 +1,86 @@
+{
+    "PAT101": {
+        "name": "Ramesh Kumar",
+        "age": 58,
+        "gender": "Male",
+        "disease": "Chest Pain",
+        "priority": 1,
+        "history": [],
+        "bills": []
+    },
+    "PAT102": {
+        "name": "Ananya Sen",
+        "age": 24,
+        "gender": "Female",
+        "disease": "Sprained Ankle",
+        "priority": 3,
+        "history": [],
+        "bills": []
+    },
+    "PAT103": {
+        "name": "Kavita Nair",
+        "age": 72,
+        "gender": "Female",
+        "disease": "Severe Breathing Issue",
+        "priority": 1,
+        "history": [],
+        "bills": []
+    },
+    "PAT104": {
+        "name": "Rahul Bose",
+        "age": 31,
+        "gender": "Male",
+        "disease": "High Fever",
+        "priority": 2,
+        "history": [],
+        "bills": []
+    },
+    "PAT105": {
+        "name": "Sunita Sharma",
+        "age": 65,
+        "gender": "Female",
+        "disease": "Wrist Fracture",
+        "priority": 2,
+        "history": [],
+        "bills": []
+    },
+    "PAT106": {
+        "name": "ram",
+        "age": 34,
+        "gender": "male",
+        "disease": "typhoid",
+        "priority": 2,
+        "history": [],
+        "bills": []
+    },
+    "PAT121": {
+        "name": "kartik",
+        "age": 32,
+        "gender": "male",
+        "disease": "typhoid",
+        "priority": 2,
+        "history": [
+            {
+                "doctor_id": "DOC105",
+                "doctor_name": "Dr. Vikram Rao",
+                "date": "09072008",
+                "notes": "typhoid"
+            }
+        ],
+        "bills": [
+            {
+                "service": "blood test",
+                "amount": 500.0
+            }
+        ]
+    },
+    "PAT229": {
+        "name": "k",
+        "age": 18,
+        "gender": "male",
+        "disease": "t",
+        "priority": 1,
+        "history": [],
+        "bills": []
+    }
+}
