@@ -1,10 +1,10 @@
 # README.md
 
 ## Project Title
-Hospital Management System[span_0](start_span)[span_0](end_span)[span_1](start_span)[span_1](end_span)
+caresync digital healthcare system [span_0](start_span)[span_0](end_span)[span_1](start_span)[span_1](end_span)
 
 ## Overview of the Project
-The Hospital Management System is a terminal-based Python application built to streamline daily administrative operations within a clinic or hospital[span_2](start_span)[span_2](end_span). It provides a complete workflow for registering patients, managing a roster of doctors, scheduling appointments, calculating bills, and prioritizing patient care using a custom triage algorithm. All patient data is persistently stored in a local JSON database[span_3](start_span)[span_3](end_span)[span_4](start_span)[span_4](end_span).
+caresync digital healthcare system is a terminal-based Python application built to streamline daily administrative operations within a clinic or hospital[span_2](start_span)[span_2](end_span). It provides a complete workflow for registering patients, managing a roster of doctors, scheduling appointments, calculating bills, and prioritizing patient care using a custom triage algorithm. All patient data is persistently stored in a local JSON database[span_3](start_span)[span_3](end_span)[span_4](start_span)[span_4](end_span).
 
 ## Features
 *   **Patient Database**: Register new patients with unique IDs, name, age, gender, disease, and priority level (Emergency, Urgent, Normal)[span_5](start_span)[span_5](end_span)[span_6](start_span)[span_6](end_span). Prevents duplicate registrations using Python sets[span_7](start_span)[span_7](end_span).
