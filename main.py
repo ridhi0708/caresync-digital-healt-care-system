@@ -1,4 +1,3 @@
-```python
 import doctors
 import patient_db
 import appointments
