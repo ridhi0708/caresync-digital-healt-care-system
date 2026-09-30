@@ -10,7 +10,7 @@ import storage
 
 def show_menu():
     print("\n" + "=" * 48)
-    print("    HOSPITAL MANAGEMENT AND TRIAGE SYSTEM")
+    print("HOSPITAL MANAGEMENT AND TRIAGE SYSTEM")
     print("=" * 48)
     print("1. Register New Patient")
     print("2. View Triage Priority Queue (Bubble Sort)")
@@ -39,7 +39,6 @@ def handle_register():
         print("[!] Name cannot be empty.")
         return
 
-    # Check for valid age
     age_input = input("Enter Age: ").strip()
     if not age_input.isdigit():
         print("[!] Please enter a valid number for age.")
@@ -146,8 +145,6 @@ def main():
     print("=" * 48)
     print("  City General Hospital - CSE1021 Project")
     print("=" * 48)
-
-    # Try loading saved JSON data; if none found, load demo records
     has_data = storage.load_records_from_file()
     if not has_data:
         print("[i] Loading demo patient records for first-time use...")
